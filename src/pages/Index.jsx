@@ -3,8 +3,8 @@ import { FaTwitter, FaFacebook, FaLinkedin } from "react-icons/fa";
 
 const Index = () => {
   return (
-    <Container maxW="container.xl" p={4}>
-      <Box as="header" bg="gray.800" color="white" py={4} mb={6}>
+    <Container maxW="container.xl" p={4} bg="#f3f2ef">
+      <Box as="header" bg="#333333" color="white" py={4} mb={6}>
         <Flex justify="space-between" align="center">
           <Heading as="h1" size="lg">Financial Times</Heading>
           <Flex>
@@ -38,7 +38,7 @@ const Index = () => {
           </VStack>
         </Box>
       </VStack>
-      <Box as="footer" bg="gray.800" color="white" py={4} mt={6}>
+      <Box as="footer" bg="#333333" color="white" py={4} mt={6}>
         <Text textAlign="center">&copy; 2023 Financial Times. All rights reserved.</Text>
       </Box>
     </Container>
